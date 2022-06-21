@@ -1,0 +1,19 @@
+/* h1{ */
+    /* background-color: blue; */
+    /* color: white; */
+/* } */
+
+#title{
+    background-color: green;
+}
+.title{
+    background-color: darkblue;
+}
+.title2{
+    color: aliceblue;
+    background-color: violet;
+}
+.container h1{
+    background-color: brown;
+    color: burlywood;
+}

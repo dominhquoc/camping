@@ -1,0 +1,222 @@
+body {
+    margin          : 0;
+    padding         : 0;
+    background-color: #faf4f2;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.header {
+    /* HEX:#rrggbb 0 => f */
+    background-color   : #f8e1db;
+    /* padding         : 20px; */
+    padding            : 10px 40px;
+    /* padding         : 10px 20px 30px 40px; */
+    /* padding-left    : 20px; */
+    /* padding-top     : 20px; */
+    /* padding-bottom  : 20px; */
+    /* padding-right   : 20px; */
+    position           : fixed;
+    top                : 0;
+    left               : 0;
+    width              : 100%;
+    z-index            : 10;
+}
+
+/* .header .logo{ 
+ margin-bottom: 20px; 
+ the inline khong margin tren duoi
+/* } */
+
+.header .logo img {
+    width: 70px;
+}
+
+.header .navbar {
+    margin-top: 10px;
+}
+
+.header .navbar a {
+    text-decoration   : none;
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    color             : #000000;
+    margin-right      : 20px;
+    font-size         : 18px;
+    font-weight       : normal;
+}
+
+.header .navbar a:hover {
+    color: #ff0000;
+}
+
+.carousel {
+    background-image      : url(../img/BG.png);
+    height                : 900px;
+    background-repeat     : no-repeat;
+    /* background-size    : x y; */
+    /* background-size    : 200px 300px; */
+    background-size       : cover;
+    /* background-position: x y; */
+    background-position   : center center;
+}
+
+.activity {
+    padding: 80px 0;
+}
+
+.activity .title {
+    text-align: center;
+}
+
+.activity .title h2 {
+    font-size : 40px;
+    color     : #8d8d8d;
+    margin-top: 0;
+}
+
+/* float */
+.activity .main .row .col {
+    float              : left;
+    width              : 25%;
+    padding            : 0 15px;
+    box-sizing         : border-box;
+    /* background-color: green; */
+    /* border          : 1px solid; */
+    /* margin-right    : 30px; */
+}
+
+.activity .main .item {
+    background-color: #ffffff;
+    border-radius   : 30px;
+    padding         : 30px;
+    text-align      : center;
+}
+
+.activity .main .item .thumbnail {
+    position: relative;
+}
+
+.activity .main .item .thumbnail img {
+    width        : 100%;
+    border-radius: 30px;
+}
+
+.activity .main .item .thumbnail i {
+    color           : #ff0000;
+    font-size       : 30px;
+    /* position     : relative , absolute, fixed; */
+    position        : absolute;
+    top             : 20px;
+    right           : 20px;
+    /* bottom       : 50px;
+    right           : 10px; */
+    background-color: rgba(255, 255, 255, 0.5);
+    /* padding      : 20px; */
+    width           : 50px;
+    height          : 50px;
+    line-height     : 50px;
+    border-radius   : 50%;
+    /* opacity      : 0.5; */
+}
+
+.activity .main .item h1 {
+    font-size: 24px;
+}
+
+.activity .main .item p {
+    font-size  : 20px;
+    color      : #8d8d8d;
+    line-height: 30px;
+    /* chieu cao dong text */
+}
+
+.activity .main .item a {
+    background-color: #e8e8e8;
+    display         : inline-block;
+    padding         : 10px 30px;
+    text-decoration : none;
+    color           : #8d8d8d;
+    border-radius   : 20px;
+    letter-spacing  : 1.5px;
+}
+
+.View {
+    text-align: center;
+
+    margin-top: 35px;
+}
+
+button {
+    border-radius   : 20px;
+    padding         : 10px 50px;
+    border          : solid 1px rgb(255, 137, 2);
+    background-color: white;
+}
+
+button a{
+    text-decoration: none;
+    color           : rgb(255, 137, 2);
+}
+
+.minicol #mini {
+    float: left;
+}
+
+.contact {
+    background-color: #f8e1db;
+    border-radius   : 15px;
+    height          : 450px;
+
+}
+
+.contact .row .col {
+    float     : left;
+    width     : 50%;
+    padding   : 45px 45px;
+    box-sizing: border-box;
+    color     : #8d8d8d;
+}
+
+.contact .row .col i {
+    color        : rgba(255, 0, 0, 0.5);
+    font-size    : 25px;
+    padding-right: 10px;
+}
+
+.footer {
+    background-color: #f8e1db;
+    border-radius   : 100px;
+    margin-top      : 100px;
+    height          : 420px;
+}
+
+.footer .row .leftcol {
+    float     : left;
+    width     : 40%;
+    padding   : 80px 50px 50px 70px;
+    box-sizing: border-box;
+}
+
+.footer .row .rightcol {
+    float     : left;
+    width     : 60%;
+    padding   : 80px 50px 50px 70px;
+    box-sizing: border-box;
+}
+
+.footer .row .rightcol .minicol {
+    float: left;
+    width: 33.3%;
+}
+
+.minicol p a {
+    text-decoration: none;
+    color          : black;
+}
+
+.copy {
+    text-align: center;
+}
